@@ -1,0 +1,97 @@
+body {
+  background-color: LightGray;
+}
+
+div.app-container {
+  width: 100%;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  max-width: 100% !important;
+}
+
+#app .navbar-menu {
+  background-color: DodgerBlue !important;
+  color: white;
+}
+
+#site-mark {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+form.account-form .form-control-user
+{
+  font-size: .9rem;
+  border-radius: 10rem;
+  padding: 1.5rem 1rem;   
+}
+
+form.account-form .btn-user {
+  /* font-size: .9rem; */
+  font-size: 20px;
+  border-radius: 10rem;
+  padding: 0.75rem 1rem;
+}
+
+form.news-form .btn {
+  width: 100px;
+  height: 40px;
+}
+
+table.news-form .btn {
+  width: 100px;
+  height: 40px;
+}
+
+.flex-container-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  border-color: darkgray;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+th {
+  background-color: darkgray;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+td {
+  border: 1px solid darkgray;
+  text-align: left;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding: 6px !important;
+  vertical-align: middle !important;
+}
+
+td.action-group {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s
+}
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
